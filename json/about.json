@@ -1,0 +1,56 @@
+{
+    "about_me": {
+      "name": "Jesper",
+      "title": "Software Developer",
+      "introduction": "Former film production professional, specializing as a certified drone operator and editor. Currently, I'm pursuing a degree in Informatics at NTNU, complemented by courses in Economy and Management. Born in Trondheim, Norway, I now reside in the breathtaking Lofoten Islands. My passion for the outdoors fuels my love for climbing, skiing, and free diving. Explore my journey as I blend technology, creativity, and adventure",
+      "biography": {
+        "early_life": "Born in Trondheim, Norway, I now reside in the breathtaking Lofoten Islands.",
+        "education": "Currently, I'm pursuing a degree in Informatics at NTNU, complemented by courses in Economy and Management.",
+        "career": "I started my career at ABC Corporation where I worked on numerous projects...",
+        "current_work": "Currently, I am working as a lead developer at DEF Company, where I oversee the development of cloud-based solutions..."
+      },
+      "languages": [
+        "Java",
+        "TypeScript",
+        "JavaScript",
+        "Python",
+        "LaTeX",
+        "JavaFX",
+        "TailwindCSS",
+        "HTML / CSS",
+        "Mongoose",
+        "UML / PlantUML"
+      ],
+      
+      "frameworks": [
+        "Spring Boot",
+        "React",
+        "Node.js",
+        "LibGDX",
+        "Apollo Server"
+      ],
+      "databases": [
+        "MongoDB",
+        "PostgreSQL",
+        "MySQL",
+        "SQLite"
+      ],
+
+      "cloud_BaaS": [
+        "Firebase"
+      ],
+      "software": [
+        "Microsoft Excel",
+        "Figma",
+        "Adobe Photoshop",
+        "Adobe InDesign",
+        "Adobe Illustrator"
+      ],
+      "contact_information": {
+        "email": "jespese@ntnu.no",
+        "linkedin": "https://www.linkedin.com/in/jesper-seip-b53b4216a/",
+        "github": "https://github.com/jespese"
+      }
+    }
+  }
+  

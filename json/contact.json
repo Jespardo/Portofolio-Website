@@ -1,0 +1,28 @@
+{
+  "contact": [
+  {
+    "type": "phone",
+    "value": "+47 401 42 000"
+  },
+  {
+    "type": "Location",
+    "value": "Trondheim, Norway"
+  },
+  {
+    "type": "university_email",
+    "value": "jespese@ntnu.no"
+  },
+  {
+    "type": "email",
+    "value": "seip.jesper@gmail.com"
+  },
+  {
+    "type": "linkedin",
+    "value": "https://www.linkedin.com/in/jesper-seip-b53b4216a/"
+  },
+  {
+    "type": "github",
+    "value": "https://github.com/Jespardo"
+  }
+]
+}

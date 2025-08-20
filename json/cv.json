@@ -1,0 +1,95 @@
+{
+  "name": "Jesper Seip",
+  "title": "Junior Developer",
+  "personal_traits": [
+    "Communicative",
+    "Team player",
+    "Eye for detail"
+  ],
+  "profile_and_goal": "Junior developer in education with a background in economics and film production. Former cinematographer at the beginning of a new journey as a full-stack developer. Eternal optimist and always eager to learn something new. My goal is to grow together with other knowledgeable, kind, and open-minded people.",
+  "experience": [
+    {
+      "period": "2020 – 2025",
+      "position": "UAS Operator",
+      "employer": "Civil Aviation Authority of Norway",
+      "description": "Former RO3-certified. Experience with close-range flying and BVLOS operations with support from the Civil Aviation Authority."
+    },
+    {
+      "period": "2019 – 2025",
+      "position": "CEO, Cinematographer, Director",
+      "employer": "Ellevill Film AS (formerly Invenio AS)",
+      "description": "Management and operation of a small film production company. Coordination and execution of film projects."
+    },
+    {
+      "period": "2017 – 2022",
+      "position": "Co-owner and member",
+      "employer": "Lofoten Film Collective"
+    },
+    {
+      "period": "2015 – 2021",
+      "position": "Bartender, Barista",
+      "employer": "Lysstøyperiet / Absalon",
+      "description": "Experience in service, teamwork, and handling high-pressure situations."
+    }
+  ],
+  "education": [
+    {
+      "period": "2023 – Present",
+      "degree": "Bachelor",
+      "field": "Computer Science",
+      "institution": "NTNU",
+      "description": "Focus on programming, user-friendly system development, and agile methodologies."
+    },
+    {
+      "period": "2022 – 2023",
+      "degree": "One-year Program",
+      "field": "Economics and Management",
+      "institution": "Nord University",
+      "description": "Basic introduction to financial management, marketing, and leadership."
+    },
+    {
+      "period": "2021 – 2022",
+      "degree": "Private Candidate",
+      "field": "Physics and Mathematics",
+      "institution": "Charlottenlund High School",
+      "description": "Completed advanced mathematics and physics for admission to computer science studies."
+    },
+    {
+      "period": "2016 – 2020",
+      "degree": "Bachelor",
+      "field": "Moving Images",
+      "institution": "Nordland College of Art and Film"
+    },
+    {
+      "period": "2014 – 2015",
+      "degree": "One-year Program",
+      "field": "Film Production",
+      "institution": "European Film College"
+    }
+  ],
+  "references": [
+    {
+      "name": "Inge Wegge",
+      "position": "CEO",
+      "employer": "Lofoten Film Collective",
+      "phone": "+47 901 30 720"
+    },
+    {
+      "name": "Jan Olav Jensen",
+      "position": "CEO and Founder",
+      "employer": "MediaLab",
+      "phone": "+47 900 91 250"
+    },
+    {
+      "name": "Alexander Prout",
+      "position": "CEO",
+      "employer": "Folkehuset Absalon",
+      "phone": "+45 5271 3318"
+    },
+    {
+      "name": "Line Marie Jensen",
+      "position": "Former Owner and Founder",
+      "employer": "Henningsvær Lysstøperi & Cafe"
+    }
+  ]
+}
