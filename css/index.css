@@ -198,3 +198,10 @@ a {
   padding-left: 70px;
   padding-right: 70px;
 }
+
+/* logo styling */
+#LeftSideBox img {
+  justify-self: flex-start;
+  top: 0;
+  width: 50px;
+}
