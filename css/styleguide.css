@@ -1,0 +1,38 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+:root {
+    /* Standardized site colors*/
+    --grey-font-normal: #43484F;
+    --grey-font-contact-info: #5C6168;
+    --orange-details: #D67215;
+    
+    /* black and white fonts to toggle in dark/light mode */
+    --background-color: var(--default-white);
+    --background-color-transp: var(--default-white-transp);
+    --text-color: var(--default-black);
+
+    /* Background/text colors */
+    --default-white: #FBFAFF;
+    --default-grey: #9B9A9C;
+    --default-black: #100c07;
+    --default-black-transp: rgba(16, 12, 7, 0.95);
+    --default-white-transp: rgba(251, 250, 255, 0.95);
+    
+    /*inter thin style*/
+    --thin-font-family: 'Inter', Arial, Helvetica, sans-serif;
+    --thin-font-weight: 300;
+    --thin-font-size: 10px;
+    --thin-font-letter-spacing: 4%;
+    
+    /*inter thick fonts*/
+    --thick-font-family: 'Inter', Arial, Helvetica, sans-serif;
+    --thick-font-weight: 700;
+    --thick-font-size: 37px;
+    --thick-font-letter-spacing: 27.5%; 
+
+    /*mono standard style*/
+    --mono-font-family: 'Noto Sans Mono', monospace, Courier;
+    --mono-font-weight: 400;
+    --mono-font-size: 12px;
+    --mono-font-letter-spacing: 5%;
+}
