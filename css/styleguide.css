@@ -17,22 +17,51 @@
     --default-black: #100c07;
     --default-black-transp: rgba(16, 12, 7, 0.95);
     --default-white-transp: rgba(251, 250, 255, 0.95);
-    
-    /*inter thin style*/
-    --thin-font-family: 'Inter', Arial, Helvetica, sans-serif;
-    --thin-font-weight: 300;
-    --thin-font-size: 10px;
-    --thin-font-letter-spacing: 4%;
-    
-    /*inter thick fonts*/
-    --thick-font-family: 'Inter', Arial, Helvetica, sans-serif;
-    --thick-font-weight: 700;
-    --thick-font-size: 37px;
-    --thick-font-letter-spacing: 27.5%; 
 
-    /*mono standard style*/
+    /* Base font size for each screen size */
+    --small-screen: 14px;
+    --medium-screen: 16px;
+    --large-screen: 18px;
+    --strd-text-margin: 0em;
+
+    /* Fonts */
+    --inter-font-family: 'Inter', Arial, Helvetica, sans-serif;
     --mono-font-family: 'Noto Sans Mono', monospace, Courier;
+    
+    /* small text attributes */
+    --small-font-weight: 300;
+    --small-font-size: 0.3em;
+    --small-font-letter-spacing: 4%;
+    
+    /* medium text attributes */
+    --medium-font-weight: 400;
+    --medium-font-size: 0.6em;
+    --medium-margin-block: 0em;
+
+    /* large text attributes */
+    --large-font-family: 'Inter', Arial, Helvetica, sans-serif;
+    --large-font-weight: 600;
+    --large-font-size: 1.2em;
+    --large-font-letter-spacing: 8%;
+
+    /* extra large text attributes */
+    --xl-font-family: 'Inter', Arial, Helvetica, sans-serif;
+    --xl-font-weight: 700;
+    --xl-font-size: 1.8em;
+    --xl-font-letter-spacing: 27.5%;
+
     --mono-font-weight: 400;
-    --mono-font-size: 12px;
+    --mono-font-size: 0.9em;
     --mono-font-letter-spacing: 5%;
+
+    /* Effects */
+    --visibility-transition:
+      max-height 33ms ease-in-out,
+      opacity 50ms ease-in-out,
+      visibility 0ms linear 50ms;
+
+      --background-transition:
+      background-color 0.4s ease-in-out;
+
+      --filter-transition: filter 50ms ease-in-out;
 }

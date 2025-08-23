@@ -16,38 +16,53 @@ html, body {
   overflow: hidden;
   background-color: var(--background-color);
   color: var(--text-color);
-  transition: background-color 0.3s ease, color 0.3 ease;
   display: flex;
   align-items: flex-start;
-  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-family: var(--inter-font-family);
+  transition: var(--background-transition);
+  
+  /* Base font size */
+  font-size: var(--medium-screen);
 }
 
 main {
   max-width: 1200px;
 }
 
-h1, p {
+h1, h3, p, a {
   color: var(--text-color);
+  margin: var(--strd-text-margin);
+}
+
+a:visited {
+  color: var(--grey-font-normal);
 }
 
 h1 {
-  font-family: var(--thick-font-family);
-  font-weight: var(--thick-font-weight);
-  font-size: var(--thick-font-size);
-  letter-spacing: var(--thick-font-letter-spacing);
+  font-weight: var(--xl-font-weight);
+  font-size: var(--xl-font-size);
+  margin: var(--xl-margin-block);
+  letter-spacing: var(--xl-font-letter-spacing);
 }
 
 h2 {
+  font-weight: var(--large-font-weight);
+  font-size: var(--medium-font-size);
+  letter-spacing: var(--large-font-letter-spacing);
+  color: var(--grey-font-normal);
+}
+
+h3 {
   font-family: var(--mono-font-family);
-  font-weight: var(--thick-font-weight);
-  font-size: var(--thick-font-size);
-  letter-spacing: var(--thick-font-letter-spacing);
+  font-weight: var(--large-font-weight);
+  font-size: var(--large-font-size);
+  letter-spacing: var(--large-font-letter-spacing);
 }
 
 p, a {
-  font-weight: var(--thin-font-weight);
-  font-size: var(--thin-font-size);
-  letter-spacing: var(--thin-font-letter-spacing);
+  font-weight: var(--medium-font-weight);
+  font-size: var(--medium-font-size);
+  letter-spacing: var(--medium-font-letter-spacing);
   color: var(--text-color);
   text-decoration: none;
 }
@@ -59,8 +74,21 @@ a {
   letter-spacing: var(  --mono-font-letter-spacing);
   cursor: pointer;
   color: var(--text-color);
-  transition: 50ms;
+  transition: var(--filter-transition);
+  filter: blur(0.1px);
+}
+
+ul:hover a {
+  filter: blur(0.4px);
+}
+
+ul a:hover {
   filter: blur(0px);
+}
+
+ul {
+  list-style: none;
+  width: max-content;
 }
 
 button {
@@ -86,50 +114,36 @@ button {
 #SiteHeader {
   display: flex;
   flex-direction: column;
-  position: fixed;
-  top: 60px;
-  left: 70px;
+  position: relative;
+  top: 2.6em;
+  left: 2.6em;
   z-index: 1000;
-  min-height: 100px;
-  height: 30vh;
+  height: 3em;
+  width: max-content;
   min-width: min-content;
-  width: 300px;
+  gap: 0.6em;
 }
 
 #SiteHeader > div {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  height: 44px;
-  gap: 5px;
 }
 
 #SiteHeader > div h1 {
   text-wrap: nowrap;
   white-space: nowrap;
-  font-size: 1.6rem;
-  margin: 0;
-  align-self: center;
-  font-family: monospace;
-}
-
-
-#SiteHeader > div p {
-  margin-top: 5px;
 }
 
 /* Hamburger Menu style and behavior */
 #NavbarToggle {
-  max-height: 44px;
+  height: 44px;
+  width: 44px;
   visibility: hidden;
   opacity: 0;
-  transition: 
-  opacity 0.2s ease, 
-  visibility 0s linear 0s,
-  max-height 0.3s ease;
   border: none;
-  font-size: 1.6rem;
-  padding: 10px;
+  font-size: 1.8rem;
+  transition: var(--visibility-transition);
 }
 /* MQ for header, navbar sizing */
 @media (max-width: 430px) {
@@ -150,11 +164,8 @@ button {
     max-height: 50px;
     visibility: visible;
     opacity: 1;
-    transition: 
-    opacity 0.2s ease, 
-    visibility 0s linear 0s,
-    max-height 0.3s ease;
     cursor: pointer;
+    transition: var(--visibility-transition);
   }
 }
 
@@ -180,6 +191,7 @@ button {
   flex: 0 1 30px;
   min-height: 200px;
   min-width: 3em;
+  z-index: 1001;
 }
 
 .verticalFrame {
@@ -189,6 +201,7 @@ button {
   width: 100vw;
   max-width: 1140px;
   min-width: 200px;
+  z-index: 1001;
 }
 
 .verticalFrame, .horizontalFrame {

@@ -1,54 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang='en'>
     <head>
-        <meta charset="UTF-8">
-	    <link rel="preconnect" href="https://fonts.googleapis.com">
-	    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-	    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans+Mono:wght@100..900&display=swap" rel="stylesheet">
+        <meta charset='UTF-8'>
+	    <link rel='preconnect' href='https://fonts.googleapis.com'>
+	    <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin> 
+	    <link href='https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans+Mono:wght@100..900&display=swap' rel='stylesheet'>
         <title>Jesper Seip - Home</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="description" content="Developer and Film Creator in Lofoten">
-        <meta property="og:site_name" content="Developer Jesper Seip">
-        <meta property="og:title" content="Developer Jesper Seip">
-        <meta property="og:description" content="Developer and Film Creator in Lofoten">
-        <meta property="og:locale" content="no_NO">
-        <meta name="google" content="notranslate">
-        <meta property="og:type" content="website">
-        <link rel="stylesheet" href="css/index.css" />
-        <link rel="stylesheet" href="css/styleguide.css" />
-        <link rel="icon" href="img/favicon.png" type="image/png">
+        <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+        <meta name='description' content='Developer and Film Creator in Lofoten'>
+        <meta property='og:site_name' content='Developer Jesper Seip'>
+        <meta property='og:title' content='Developer Jesper Seip'>
+        <meta property='og:description' content='Developer and Film Creator in Lofoten'>
+        <meta property='og:locale' content='no_NO'>
+        <meta name='google' content='notranslate'>
+        <meta property='og:type' content='website'>
+        <link rel='stylesheet' href='css/styleguide.css' />
+        <link rel='stylesheet' href='css/index.css' />
+        <link rel='stylesheet' href='css/navbar.css' />
+        <link rel='icon' href='img/favicon.png' type='image/png'>
     </head>
     <body>
-        <div id="Page" class="page">
-            <div id="TopFrame" class="verticalFrame"></div>
-            <header id="SiteHeader" class="header-container">
-                <div>
-                    <button id="NavbarToggle" aria-label="Menu" aria-controls="SiteNav" aria-expanded="false">
-                        &#9776;
-                    </button>
-                    <div>
-                        <a href="#home" class="home-link">
-                            <h1> Jesper Seip</h1>
-                        </a>
-                        <p>Developer and Film Creator in Lofoten</p>
-                    </div>
+        <div id='Page' class='page'>
+            <div id='TopFrame' class='verticalFrame'></div>
+            <main id='Main' class='mainWrapper'>
+                <div id='LeftSideBox' class='horizontalFrame'>
+                    <img class="logo" src='img/logo_black_transparent.png' alt="JS initials">
                 </div>
-            </header>
-            <main id="Main" class="mainWrapper">
-                <div id="LeftSideBox" class="horizontalFrame">
-                    <img class="logo" src="img/logo_black_transparent.png" alt="JS initials">
-                </div>
-                <section id="Frame">
-                    <section id="Content"></section>
+                <section id='Frame'>
+                    <header id='SiteHeader' class='header-container'>
+                        <div>
+                            <button id='NavbarToggle' aria-label='Menu' aria-controls='SiteNav' aria-expanded='false'>
+                                &#9776;
+                            </button>
+                            <div>
+                                <a href='#home' class='home-link'>
+                                    <h1> Jesper Seip</h1>
+                                </a>
+                                <h2>Developer and Film Creator in Lofoten</h2>
+                            </div>
+                        </div>
+                    </header>
+                    <section id='Content'></section>
                 </section>
-                <div id="RightSideBox" class="horizontalFrame">
+                <div id='RightSideBox' class='horizontalFrame'>
                     <p>2025</p>
                 </div>
             </main>
-            <footer id="SiteFooter" class="verticalFrame">
+            <footer id='SiteFooter' class='verticalFrame'>
                 <p>Design and content by Jesper Seip, Copyright 2025.</p>
             </footer>
-		    <script src="js/index.js"></script>
+		    <script type="module" src="js/index.js?v=1.0"></script>
+		    <script type='module' src='js/navbar.js'></script>
+            <script type='module' src='js/content.js'></script>
         </div>
     </body>
 </html>
