@@ -1,0 +1,79 @@
+/* anchor absolute children to the header */
+#SiteHeader {
+  position: relative;
+}
+
+/* closed state */
+.siteHeaderNav {
+  position: absolute;
+  top: 0;
+  left: 0em;
+  z-index: 1000;
+
+  display: flex;
+  flex-direction: column;
+
+  /* sizing/placement */
+  margin-left: inherit;
+  margin-top: 3em;
+  padding-left: 44px;
+  max-height: 0;
+
+  /* hide & block interaction */
+  overflow: hidden;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+
+  /* animation */
+  transition:
+    max-height 0.5s ease-in-out,
+    opacity 0.5s ease-in-out,
+    visibility 0s linear 0.5s;
+}
+
+/* open state */
+.siteHeaderNav.active {
+  max-height: 300px;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  transition:
+    max-height 0.5s ease-in-out,
+    opacity 0.5s ease-in-out,
+    visibility 0s;
+}
+
+.siteHeaderNav li {
+  margin: 10px 0;
+}
+
+.siteHeaderNav li a {
+  text-decoration: none;
+}
+
+.siteHeaderNav li.active > a {
+  display: none;
+}
+
+.siteHeaderNav li .nav-dot {
+  display: none;
+}
+.siteHeaderNav li.active > .nav-dot {
+  display: inline-block;
+}
+
+.nav-dot{
+  filter: blur(0.3px);
+}
+
+/* Respect reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .siteHeaderNav {
+    transition: none;
+  }
+  .siteHeaderNav.active {
+    transition: none;
+  }
+}
+
