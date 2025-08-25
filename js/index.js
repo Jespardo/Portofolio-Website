@@ -1,9 +1,5 @@
-import { renderContent } from './content.js';
 import {setupNavbar, setActiveNav } from './navbar.js';
 
-
-//  const navToggle = document.getElementById('NavbarToggle');
-// const siteHeader = document.getElementById('SiteHeader');
 document.addEventListener("DOMContentLoaded", () => {
    console.log("index.js fired...");
    setupNavbar();
