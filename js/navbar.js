@@ -7,7 +7,7 @@ export function setupNavbar() {
       <ul>
         <li data-route="home">
           <span class="nav-dot" aria-hidden="true">&#x2022;</span>
-          <a href="#home" id="home-link">Home</a>
+          <a href="#about" id="home-link">Home</a>
         </li>
         <li data-route="webdev">
           <span class="nav-dot" aria-hidden="true">&#x2022;</span>

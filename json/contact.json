@@ -1,28 +1,25 @@
 {
-  "contact": [
-  {
-    "type": "phone",
-    "value": "+47 401 42 000"
-  },
-  {
-    "type": "Location",
-    "value": "Trondheim, Norway"
-  },
-  {
-    "type": "university_email",
-    "value": "jespese@ntnu.no"
-  },
-  {
-    "type": "email",
-    "value": "seip.jesper@gmail.com"
-  },
-  {
-    "type": "linkedin",
-    "value": "https://www.linkedin.com/in/jesper-seip-b53b4216a/"
-  },
-  {
-    "type": "github",
-    "value": "https://github.com/Jespardo"
+  "page": {
+    "id": "contact",
+    "title": "Contact Information",
+    "introduction": "If you want to get in touch or see more of my work, feel free to send me and email or contact me on LinkedIn. To see my code, check out my GitHub profile.",
+    "sections": [
+      {
+        "id": "contact",
+        "title": "Contact Information",
+        "links": [
+          { "type": "email", "label": "Email", "url": "mailto:jespese@ntnu.no" },
+          { "type": "email", "label": "Student Email", "value": "jespese@ntnu.no" },
+          { "type": "github", "label": "GitHub", "url": "https://github.com/jespese" },
+          { "type": "linkedin", "label": "LinkedIn", "url": "https://www.linkedin.com/in/jesper-seip-b53b4216a/" }
+        ]
+      }
+    ]
   }
-]
 }
+
+
+
+
+
+    

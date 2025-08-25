@@ -1,56 +1,34 @@
 {
-    "about_me": {
-      "name": "Jesper",
-      "title": "Software Developer",
-      "introduction": "Former film production professional, specializing as a certified drone operator and editor. Currently, I'm pursuing a degree in Informatics at NTNU, complemented by courses in Economy and Management. Born in Trondheim, Norway, I now reside in the breathtaking Lofoten Islands. My passion for the outdoors fuels my love for climbing, skiing, and free diving. Explore my journey as I blend technology, creativity, and adventure",
-      "biography": {
-        "early_life": "Born in Trondheim, Norway, I now reside in the breathtaking Lofoten Islands.",
-        "education": "Currently, I'm pursuing a degree in Informatics at NTNU, complemented by courses in Economy and Management.",
-        "career": "I started my career at ABC Corporation where I worked on numerous projects...",
-        "current_work": "Currently, I am working as a lead developer at DEF Company, where I oversee the development of cloud-based solutions..."
+  "page": {
+    "id": "home",
+    "title": "About Me",
+    "subtitle": "Software Developer",
+    "introduction": "I love figuring stuff out. 'Stuff' could take many shapes and forms. As long as I can take *some* theory and apply it *somewhere*, be it code or bouldering, I'm happy.  Former film production professional, specializing as a certified drone operator and editor. Currently, I'm pursuing a degree in Informatics at NTNU, complemented by courses in Economy and Management. Born in Trondheim, Norway, I now reside in the breathtaking Lofoten Islands. My passion for the outdoors fuels my love for climbing, skiing, and free diving. Explore my journey as I blend technology, creativity, and adventure.",
+    "sections": [
+      {
+        "id": "biography",
+        "title": "Biography",
+        "content": [
+          {
+            "heading": "Early Life",
+            "text": "I grew up in Trondheim, Norway. I moved to Denmark for a while, and then eventually ended up in Lofoten, where I have a small house in beautiful Henningsvær. These days I live in Trondheim with my partner Linn Siri, and our two dogs, Amber and Storm.",
+            "embed": {
+              "url": "https://embed.figma.com/proto/YiIM6df3EVwwqkDE4Dc2Ad/Lofoten-Film-Collective-Website?node-id=176-2&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&embed-host=share"
+            }
+          },
+          {
+            "heading": "Education",
+            "text": "Currently, I'm pursuing a degree in Informatics at NTNU, complemented by courses in Economy and Management. Prior to this I have a bachelor's degree in Moving Images (think Motion Pictures."
+          },
+          {
+            "heading": "Work",
+            "text": "Since my bachelor's at Norland Kunst- & Filmhøgskole, I worked full-time as a freelancer on various film productions in Lofoten, via my company. Along with some fellow film makers, I started Lofoten Film Collective. When Covid came along, I decided to head for parhaps greener, but more importantly, stable and predictable pastures. I've kept my company since then, but have been gradually taken fewer jobs as my studies gradually have become more demanding. I now work freelance as a stagehand, for Trondheim Crew, which is a nice sidegig next to my studies."
+          }
+        ]
       },
-      "languages": [
-        "Java",
-        "TypeScript",
-        "JavaScript",
-        "Python",
-        "LaTeX",
-        "JavaFX",
-        "TailwindCSS",
-        "HTML / CSS",
-        "Mongoose",
-        "UML / PlantUML"
-      ],
-      
-      "frameworks": [
-        "Spring Boot",
-        "React",
-        "Node.js",
-        "LibGDX",
-        "Apollo Server"
-      ],
-      "databases": [
-        "MongoDB",
-        "PostgreSQL",
-        "MySQL",
-        "SQLite"
-      ],
-
-      "cloud_BaaS": [
-        "Firebase"
-      ],
-      "software": [
-        "Microsoft Excel",
-        "Figma",
-        "Adobe Photoshop",
-        "Adobe InDesign",
-        "Adobe Illustrator"
-      ],
-      "contact_information": {
-        "email": "jespese@ntnu.no",
-        "linkedin": "https://www.linkedin.com/in/jesper-seip-b53b4216a/",
-        "github": "https://github.com/jespese"
+      {
+        "id": "Early life"
       }
-    }
+    ]
   }
-  
+}

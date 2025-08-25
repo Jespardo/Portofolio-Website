@@ -1,3 +1,4 @@
+import { renderContent } from './content.js';
 import {setupNavbar, setActiveNav } from './navbar.js';
 
 document.addEventListener("DOMContentLoaded", () => {
